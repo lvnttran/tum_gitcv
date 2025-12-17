@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lvnttran.github.io/atum_gitcv/sitemap.xml
+Sitemap: https://lvnttran.github.io/tum_gitcv/sitemap.xml
