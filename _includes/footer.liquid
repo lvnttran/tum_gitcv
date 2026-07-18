@@ -1,10 +1,10 @@
 {% capture footer_contents %}
   &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
   <span class="footer-links">
-    <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank"><i class="ai ai-orcid"></i> ORCID</a> ·
-    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank"><i class="ai ai-google-scholar"></i> Scholar</a> ·
-    <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a> ·
-    <a href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i> Email</a>
+    <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank" rel="noopener"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a> ·
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a> ·
+    <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a> ·
+    <a href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
   </span>
 {% endcapture %}
 

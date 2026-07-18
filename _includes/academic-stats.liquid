@@ -15,27 +15,29 @@
 {% assign i10 = 0 %}
 {% for c in citation_counts %}{% if c >= 10 %}{% assign i10 = i10 | plus: 1 %}{% endif %}{% endfor %}
 
-<div class="academic-stats row text-center my-4">
-  <div class="col-4">
-    <div class="stat-number">{{ total_citations }}</div>
-    <div class="stat-label">Citations</div>
-  </div>
-  <div class="col-4">
-    <div class="stat-number">{{ h_index }}</div>
-    <div class="stat-label">h-index</div>
-  </div>
-  <div class="col-4">
-    <div class="stat-number">{{ i10 }}</div>
-    <div class="stat-label">i10-index</div>
-  </div>
-</div>
+<section aria-label="Academic citation statistics" class="academic-stats my-4">
+  <dl class="row text-center m-0">
+    <div class="col-4">
+      <dt class="stat-number">{{ total_citations }}</dt>
+      <dd class="stat-label">Citations</dd>
+    </div>
+    <div class="col-4">
+      <dt class="stat-number">{{ h_index }}</dt>
+      <dd class="stat-label">h-index</dd>
+    </div>
+    <div class="col-4">
+      <dt class="stat-number">{{ i10 }}</dt>
+      <dd class="stat-label">i10-index</dd>
+    </div>
+  </dl>
+</section>
 <div class="text-center mb-4">
   {% if site.data.socials.orcid_id %}
-    <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank">
-      <i class="ai ai-orcid"></i> ORCID
+    <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank" rel="noopener">
+      <i class="ai ai-orcid" aria-hidden="true"></i> ORCID
     </a> ·
   {% endif %}
-  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank">
-    <i class="ai ai-google-scholar"></i> Google Scholar
+  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener">
+    <i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar
   </a>
 </div>

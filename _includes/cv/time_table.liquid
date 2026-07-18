@@ -17,7 +17,7 @@
                   <tr>
                     <td>
                       <p class="location">
-                        <i class="fa-solid fa-location-dot iconlocation"></i>
+                        <i class="fa-solid fa-location-dot iconlocation" aria-hidden="true"></i>
                         {{ content.location }}
                       </p>
                     </td>
@@ -37,7 +37,7 @@
                 {% if content.institution %}
                   <tr>
                     <td style="vertical-align: top; text-align: center" class="institution">
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
+                      <i class="fa-solid fa-building-columns iconinstitution" aria-hidden="true"></i>
                     </td>
                     <td class="institution">{{ content.institution }}</td>
                   </tr>
@@ -45,7 +45,7 @@
                 {% if content.department %}
                   <tr>
                     <td style="vertical-align: top; text-align: center" class="department">
-                      <i class="fa-regular fa-circle-dot icondepartment"></i>
+                      <i class="fa-regular fa-circle-dot icondepartment" aria-hidden="true"></i>
                     </td>
                     <td class="department">{{ content.department }}</td>
                   </tr>
