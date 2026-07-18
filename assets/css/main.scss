@@ -33,6 +33,6 @@ body, p, .nav-link { font-family: "Inter", -apple-system, sans-serif; }
 code, .badge, .tag { font-family: "JetBrains Mono", monospace; }
 
 a { color: $orange-color; }
-a:hover { color: color.adjust($orange-color, $lightness: -12%); }
+a:hover { color: #9c6a2a; }  // manually darkened brass — no sass:color needed
 .navbar { background: $blue-color !important; }
 .navbar .nav-link, .navbar-brand { color: #f5f3ee !important; }
