@@ -11,41 +11,41 @@
   contents:
     - title: PhD in Industrial Engineering
       institution: Polytechnique Montréal, Canada — RA, Laboratoire en intelligence des données (LID)
-      year: Sep 2026 – Aug 2029
+      year: "Sep 2026<br>Aug 2029"
     - title: PhD in Industrial Engineering (I-MEP² Doctoral School)
       institution: Université Grenoble Alpes, France — RA, G-SCOP lab / TA, Grenoble INP
-      year: Sep 2025 – Aug 2028
+      year: "Sep 2025<br>Aug 2028"
     - title: Digital Transition track, Industry 5.0
       institution: Unite! Research School, Politecnico di Torino, Italy (Erasmus BIP scholarship)
-      year: May 2026
+      year: "May 2026"
     - title: Master's in Sustainable Industrial Engineering (GPA 15.15/20)
       institution: Grenoble INP – UGA, France (Graduate School UGA scholarship)
-      year: Sep 2023 – Jul 2025
+      year: "Sep 2023<br>Jul 2025"
     - title: Bachelor's in Industrial Engineering and Management (GPA 3.45/4.0)
       institution: Da Nang University of Science and Technology, Vietnam
-      year: Sep 2018 – Mar 2023
+      year: "Sep 2018<br>Mar 2023"
 
 - title: Experience & Research Projects
   type: time_table
   contents:
     - title: "ACTiP — Case-Based Reasoning for Manufacturing Time Estimation"
       institution: G-SCOP Laboratory, Grenoble INP
-      year: Jun 2024 – Jun 2025
+      year: "Jun 2024<br>Jun 2025"
       description:
         - Desktop GUI (Qt5) integrating KNN, KD-Tree, and neural-network classification to improve MAE across product families.
     - title: "ChronosPedia — VR Heritage Education App"
       institution: Vision-R Laboratory, Grenoble INP
-      year: Sep 2023 – May 2024
+      year: "Sep 2023<br>May 2024"
       description:
         - Unity/XR Toolkit app teaching users about the Comtoise clock via 3D models and hands-on assembly interaction.
     - title: "AdUsin — Smart Factory Simulation Platform"
       institution: Da Nang University of Science and Technology
-      year: Mar 2022 – Mar 2023
+      year: "Mar 2022<br>Mar 2023"
       description:
         - Streamlit app with IoT database module, predictive maintenance, and YOLOv7-based defect detection.
     - title: "DeMas — Multi-Criteria Decision Support System"
       institution: Da Nang University of Science and Technology
-      year: "Jul 2020 – Jan 2021, Dec 2024 – Jun 2025"
+      year: "Jul 2020<br>Jan 2021"
       description:
         - "Phase 1: Django app using AHP for R&D project consensus-building."
         - "Phase 2: added Random Forest support for uncertain-constraint decisions."
