@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tum_gitcv/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/tum_gitcv/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "Education, research experience, publications, and skills. Download the full PDF above.",
@@ -37,19 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tum_gitcv/cv/";
           },
-        },{id: "nav-false",
-          title: "false",
-          description: "Materials for courses you taught. Replace this text with your description.",
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/tum_gitcv/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/tum_gitcv/people/";
+            window.location.href = "/tum_gitcv/repositories/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -454,13 +440,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/tum_gitcv/projects/9_project/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/tum_gitcv/assets/pdf/TRAN_CV_26.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -489,25 +468,11 @@ ninja.data = [{
           window.open("https://orcid.org/0009-0007-2574-8110", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/tum_gitcv/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=ym5GhGoAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
