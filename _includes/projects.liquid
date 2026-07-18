@@ -26,6 +26,25 @@
                   <span id="{{ project.github_stars }}-stars"></span>
                 </span>
               {% endif %}
+
+          {% if project.pdf %}
+              <div class="pdf-icon">
+                <div class="icon" data-toggle="tooltip" title="Project PDF">
+                  <a href="{{ '/assets/pdf/' | append: project.pdf | relative_url }}" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </a>
+                </div>
+              </div>
+            {% endif %}
+            {% if project.video %}
+              <div class="video-icon">
+                <div class="icon" data-toggle="tooltip" title="Demo Video">
+                  <a href="{{ project.video }}" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-circle-play"></i>
+                  </a>
+                </div>
+              </div>
+            {% endif %}
             </div>
           {% endif %}
         </div>

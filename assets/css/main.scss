@@ -23,3 +23,16 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+h1, h2, h3, .card-title, .post-title {
+  font-family: "Source Serif 4", Georgia, serif;
+  letter-spacing: -0.01em;
+}
+body, p, .nav-link { font-family: "Inter", -apple-system, sans-serif; }
+code, .badge, .tag { font-family: "JetBrains Mono", monospace; }
+
+a { color: $orange-color; }
+a:hover { color: color.adjust($orange-color, $lightness: -12%); }
+.navbar { background: $blue-color !important; }
+.navbar .nav-link, .navbar-brand { color: #f5f3ee !important; }

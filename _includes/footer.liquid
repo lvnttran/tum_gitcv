@@ -1,14 +1,11 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
+  <span class="footer-links">
+    <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank"><i class="ai ai-orcid"></i> ORCID</a> ·
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank"><i class="ai ai-google-scholar"></i> Scholar</a> ·
+    <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a> ·
+    <a href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i> Email</a>
+  </span>
 {% endcapture %}
 
 {% if site.footer_fixed %}

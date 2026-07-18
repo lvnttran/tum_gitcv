@@ -1,0 +1,41 @@
+{% assign papers = site.data.citations.papers %}
+{% assign citation_counts = "" | split: "" %}
+{% for p in papers %}
+  {% assign citation_counts = citation_counts | push: p[1].citations %}
+{% endfor %}
+{% assign sorted = citation_counts | sort | reverse %}
+{% assign total_citations = citation_counts | sum %}
+
+{% assign h_index = 0 %}
+{% for c in sorted %}
+  {% assign rank = forloop.index %}
+  {% if c >= rank %}{% assign h_index = rank %}{% endif %}
+{% endfor %}
+
+{% assign i10 = 0 %}
+{% for c in citation_counts %}{% if c >= 10 %}{% assign i10 = i10 | plus: 1 %}{% endif %}{% endfor %}
+
+<div class="academic-stats row text-center my-4">
+  <div class="col-4">
+    <div class="stat-number">{{ total_citations }}</div>
+    <div class="stat-label">Citations</div>
+  </div>
+  <div class="col-4">
+    <div class="stat-number">{{ h_index }}</div>
+    <div class="stat-label">h-index</div>
+  </div>
+  <div class="col-4">
+    <div class="stat-number">{{ i10 }}</div>
+    <div class="stat-label">i10-index</div>
+  </div>
+</div>
+<div class="text-center mb-4">
+  {% if site.data.socials.orcid_id %}
+    <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank">
+      <i class="ai ai-orcid"></i> ORCID
+    </a> ·
+  {% endif %}
+  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank">
+    <i class="ai ai-google-scholar"></i> Google Scholar
+  </a>
+</div>
