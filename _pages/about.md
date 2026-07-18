@@ -9,10 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>G-SCOP Laboratory</p>
-    <p>Grenoble INP - UGA</p>
-    <p>LID Laboratory</p>
-    <p>Polytechnique Montréal - UdeM</p>
+        <p>G-SCOP Laboratory</p>
+        <p>Grenoble INP - UGA</p>
+        <p>and LID Laboratory</p>
+        <p>Polytechnique Montréal - UdeM</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,9 +28,9 @@ latest_posts:
   limit: 3
 ---
 
-I'm an Industrial Engineering researcher working at the intersection of **AI/ML for manufacturing** and **XR/VR simulation**, currently based at the [G-SCOP Laboratory](https://www.g-scop.grenoble-inp.fr/), Grenoble INP - Université Grenoble Alpes. My research applies case-based reasoning, KNN/KD-Tree methods, and neural-network-based classification to manufacturing time estimation across diverse product families in Engineer-to-Order (ETO) settings.
+I'm an Industrial Engineering researcher working at the intersection of **AI/ML for manufacturing** and **XR/VR simulation**, currently based at the [G-SCOP Laboratory](https://www.g-scop.grenoble-inp.fr/), Grenoble INP - Université Grenoble Alpes. Passionate Industrial Engineering enthusiast dedicated to applying AI models and XR solutions for problem-solving in Operational Research. Excited about the power of data analysis to drive informed decision-making and optimization.
 
-I hold a Master's in Sustainable Industrial Engineering from Grenoble INP and a Bachelor's in Industrial Engineering & Management from Da Nang University of Science and Technology. I'll be joining the [Laboratoire en intelligence des données (LID)](https://www.polymtl.ca/) at Polytechnique Montréal for further doctoral research starting in 2026.
+I hold a Master's in Sustainable Industrial Engineering from Grenoble INP and a Bachelor's in Industrial Engineering & Management from Da Nang University of Science and Technology. I'll be joining the [Laboratoire en intelligence des données (LID)](https://www.polymtl.ca/) at Polytechnique Montréal for further doctoral research.
 
 ### Research Overview
 - **Machine Learning for Manufacturing** — hybrid learning chains and case-based reasoning (CBR) for manufacturing time estimation
