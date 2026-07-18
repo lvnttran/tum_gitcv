@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/tum_gitcv/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/tum_gitcv/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "Publications grouped by year, most recent first. Generated automatically from _bibliography/papers.bib.",
           section: "Navigation",
@@ -44,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tum_gitcv/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
+        },{id: "nav-false",
+          title: "false",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
@@ -58,21 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tum_gitcv/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/tum_gitcv/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/tum_gitcv/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
