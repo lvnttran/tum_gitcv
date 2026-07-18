@@ -4,7 +4,7 @@
     - name: Full Name
       value: Le-Vi-Nhan-Tam Tran
     - name: Languages
-      value: Vietnamese (native), English (TOEIC 975 / IELTS 6.0), French (A2)
+      value: Vietnamese, English, French
 
 - title: Education
   type: time_table
