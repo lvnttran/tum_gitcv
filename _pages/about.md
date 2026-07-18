@@ -10,8 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>G-SCOP Laboratory</p>
-    <p>Grenoble INP - Université Grenoble Alpes</p>
-    <p>Grenoble, France</p>
+    <p>Grenoble INP - UGA</p>
+    <p>LID Laboratory</p>
+    <p>Polytechnique Montréal - UdeM</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -37,4 +38,4 @@ I hold a Master's in Sustainable Industrial Engineering from Grenoble INP and a 
 - **VR/AR Simulation** — Unity/XR Toolkit applications for technical training and cultural-heritage education
 - **Smart Factory Systems** — IoT-driven monitoring, predictive maintenance, and defect detection
 
-Feel free to look through my [publications](/publications/), [projects](/projects/) and [CV](/cv/) — and reach out by email if you'd like to talk research or collaboration.
+Feel free to look through my [publications](/publications/), [projects](/projects/) and [CV](/cv/) — and reach out by email if you'd like to talk or collaboration.
