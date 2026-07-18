@@ -2,21 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Tam Tran # the website title (if blank, full name will be used instead)
+first_name: Le-Vi-Nhan-Tam
+middle_name:
+last_name: Tran
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  It's the best way to reach me about research, collaboration, or opportunities.
+description: >
+  Academic portfolio of Tam Tran, PhD researcher in Industrial Engineering at G-SCOP (Grenoble INP - UGA) and LID (Polytechnique Montreal - UdeM), working on AI/ML for manufacturing and XR/VR simulation.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: industrial engineering, operation research, machine learning, VR/AR simulation
+lang: vn, en, fr # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🏭 # the emoji used as the favicon (alternatively, provide image name in /assets/img/) — swap for a real logo image later if you want a more polished favicon
 
 url: https://lvnttran.github.io # the base hostname & protocol for your site
 baseurl: /tum_gitcv # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -63,8 +62,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head — recommended so links you share (LinkedIn, email, conference chats) show a proper title/description/image
+serve_schema_org: true # Include Schema.org in the HTML head — helps Google understand this is a person/researcher page
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -86,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Notes # blog_name will be displayed in your blog page — rename/repurpose as "Research Notes" if you plan to use it, or remove the nav link in _data/navigation.yml if you don't
+blog_description: Occasional notes on research, conferences, and projects
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -115,20 +114,16 @@ giscus:
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+# Disqus comments (DEPRECATED — leave blank, prefer Giscus above)
+disqus_shortname: # put your own disqus shortname here if you use it; was pointing at the theme demo's "al-folio" account, which you don't want
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
+# (left empty — the theme demo's own Medium feed and an unrelated Google Blog post were
+#  wired in here by default and would otherwise show up as your posts)
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -264,8 +259,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Tran]
+  first_name: [Le-Vi-Nhan-Tam, Tam, L.V.N.]
 
   style: apa
   locale: en
