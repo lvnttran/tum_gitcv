@@ -2,7 +2,7 @@
 layout: book-shelf
 title: bookshelf
 permalink: /books/
-nav: false
+nav: false  # Hide from navigation menu
 collection: books
 ---
 

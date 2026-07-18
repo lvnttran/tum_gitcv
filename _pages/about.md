@@ -38,4 +38,4 @@ I hold a Master's in Sustainable Industrial Engineering from Grenoble INP and a 
 - **VR/AR Simulation** — Unity/XR Toolkit applications for technical training and cultural-heritage education
 - **Smart Factory Systems** — IoT-driven monitoring, predictive maintenance, and defect detection
 
-Feel free to look through my [publications](https://lvnttran.github.io/tum_gitcv/cv/), [projects](https://lvnttran.github.io/tum_gitcv/projects/) and [CV](https://lvnttran.github.io/tum_gitcv/cv/) — and reach out by email if you'd like to talk or collaboration.
+Feel free to look through my [publications](https://lvnttran.github.io/tum_gitcv/publications/), [projects](https://lvnttran.github.io/tum_gitcv/projects/) and [CV](https://lvnttran.github.io/tum_gitcv/cv/) — and reach out by email if you'd like to talk or collaboration.
