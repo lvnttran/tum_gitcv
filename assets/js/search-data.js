@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tum_gitcv/projects/";
           },
+        },{id: "nav-awards",
+          title: "awards",
+          description: "Honors and Scholarships",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/tum_gitcv/awards/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Education, research experience, publications, and skills. Download the full PDF above.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/tum_gitcv/cv/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/tum_gitcv/repositories/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -394,26 +394,26 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-adusin-smart-factory-framework-for-ceramic-manufacturing",
-          title: 'AdUsin — Smart Factory Framework for Ceramic Manufacturing',
-          description: "An Industry 4.0 web platform for industrial data analytics and decision support",
+          section: "News",},{id: "projects-epics-mep-inteudn-scoat-and-ssim-by-next-in",
+          title: 'EPICS/MEP/InTeUDN sCoat and sSIM by Next-In',
+          description: "From a community-service prototype to a life-saving smart overcoat and locator system",
           section: "Projects",handler: () => {
-              window.location.href = "/tum_gitcv/projects/adusin/";
-            },},{id: "projects-carnet-personal-trip-planning-companion",
-          title: 'Carnet — Personal Trip Planning Companion',
-          description: "A personal offline travel planner built for brainstorming, organizing, and sharing itineraries",
-          section: "Projects",handler: () => {
-              window.location.href = "/tum_gitcv/projects/carnet/";
+              window.location.href = "/tum_gitcv/projects/1a_scoat/";
             },},{id: "projects-demas-multi-criteria-decision-support-system",
           title: 'DeMas — Multi-Criteria Decision Support System',
           description: "A consensus-building tool for R&amp;D project selection",
           section: "Projects",handler: () => {
-              window.location.href = "/tum_gitcv/projects/demas/";
-            },},{id: "projects-epics-mep-inteudn-scoat-and-ssim-by-next-in",
-          title: 'EPICS/MEP/InTeUDN sCoat and sSIM by Next-In',
-          description: "From a community-service prototype to a life-saving smart overcoat and locator system",
+              window.location.href = "/tum_gitcv/projects/1b_demas/";
+            },},{id: "projects-adusin-smart-factory-framework-for-ceramic-manufacturing",
+          title: 'AdUsin — Smart Factory Framework for Ceramic Manufacturing',
+          description: "An Industry 4.0 web platform for industrial data analytics and decision support",
           section: "Projects",handler: () => {
-              window.location.href = "/tum_gitcv/projects/epics_scoat/";
+              window.location.href = "/tum_gitcv/projects/1c_adusin/";
+            },},{id: "projects-carnet-personal-trip-planning-companion",
+          title: 'Carnet — Personal Trip Planning Companion',
+          description: "A personal offline travel planner built for brainstorming, organizing, and sharing itineraries",
+          section: "Projects",handler: () => {
+              window.location.href = "/tum_gitcv/projects/2a_carnet/";
             },},{
         id: 'social-email',
         title: 'email',
