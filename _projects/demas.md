@@ -15,6 +15,6 @@ In new-product Research & Development (R&D) projects, decision-making is a compl
 ### Development phases
 
 - **Phase 1 (Jun 2020 – Dec 2020, Da Nang University of Science and Technology):** Django web application implementing the Analytic Hierarchy Process (AHP) for R&D project consensus-building.
-- **Phase 2 (Dec 2024 – Jun 2025, extended during the Master's):** added Random Forest–based support for decisions involving uncertain constraints.
+- **Phase 2 (Dec 2024 – Jun 2025, extension):** added Random Forest–based support for decisions involving uncertain constraints.
 
 See the full report in the PDF button above once it's uploaded.

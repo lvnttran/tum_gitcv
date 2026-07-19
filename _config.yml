@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Tam Tran # the website title (if blank, full name will be used instead)
+title: Le-Vi-Nhan-Tam TRAN # the website title (if blank, full name will be used instead)
 first_name: Le-Vi-Nhan-Tam
 middle_name:
 last_name: Tran
 contact_note: >
-  It's the best way to reach me about research, collaboration, or opportunities.
+  It's the best way to reach me about research or collaboration.
 description: >
   Academic portfolio of Tam Tran, PhD researcher in Industrial Engineering at G-SCOP (Grenoble INP - UGA) and LID (Polytechnique Montreal - UdeM), working on AI/ML for manufacturing and XR/VR simulation.
 footer_text: >
