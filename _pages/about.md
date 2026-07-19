@@ -24,7 +24,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm an Industrial Engineering researcher working at the intersection of **AI/ML for manufacturing** and **XR/VR simulation**, currently based at the [G-SCOP Laboratory](https://www.g-scop.grenoble-inp.fr/), Grenoble INP - Université Grenoble Alpes. I'll be joining the [Laboratoire en intelligence des données (LID)](https://www.polymtl.ca/) at Polytechnique Montréal for further doctoral research.
+I'm an Industrial Engineering researcher working at the intersection of **AI/ML for manufacturing** and **XR/VR simulation**, currently based at the [G-SCOP Laboratory](https://www.g-scop.grenoble-inp.fr/), Grenoble INP - Université Grenoble Alpes. I'll be joining the [Laboratoire en intelligence des données (LID)](https://www.polymtl.ca/) at Polytechnique Montréal for further research.
 
 Passionate Industrial Engineering enthusiast dedicated to applying AI models and XR solutions for problem-solving in Operational Research. Excited about the power of data analysis to drive informed decision-making and optimization. I hold a Master's in Sustainable Industrial Engineering from Grenoble Institute of Technology and a Bachelor's in Industrial Engineering & Management from Da Nang University of Science and Technology. 
 
