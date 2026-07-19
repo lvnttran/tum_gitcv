@@ -9,12 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-        <p>G-SCOP Lab, Grenoble INP - UGA</p>
-        <p>and LID Lab, Polytechnique Montréal - UdeM</p>
+        <p>G-SCOP, Grenoble Institute of Technology</p>
+        <p>LID, Polytechnique Montréal</p>
     
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -32,7 +31,7 @@ I hold a Master's in Sustainable Industrial Engineering from Grenoble INP and a 
 
 ### Research Overview
 - **Machine Learning** — hybrid learning chains and case-based reasoning (CBR) for manufacturing time estimation
-- **Decision-Making** — multi-criteria decision-making (AHP, Random Forest) for R&D project selection
+- **Decision-Making** — multi-criteria decision-making (AHP,RF) for project selection
 - **VR/AR Simulation** — Unity/XR Toolkit applications for technical training and cultural-heritage education
 - **Smart Factory Systems** — IoT-driven monitoring, predictive maintenance, and defect detection
 
