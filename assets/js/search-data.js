@@ -394,23 +394,23 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+          section: "News",},{id: "projects-adusin-smart-factory-framework-for-ceramic-manufacturing",
+          title: 'AdUsin — Smart Factory Framework for Ceramic Manufacturing',
+          description: "An Industry 4.0 web platform for industrial data analytics and decision support",
           section: "Projects",handler: () => {
-              window.location.href = "/tum_gitcv/projects/5_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/tum_gitcv/projects/adusin/";
+            },},{id: "projects-carnet-personal-trip-planning-companion",
+          title: 'Carnet — Personal Trip Planning Companion',
+          description: "A personal offline travel planner built for brainstorming, organizing, and sharing itineraries",
           section: "Projects",handler: () => {
-              window.location.href = "/tum_gitcv/projects/7_project/";
+              window.location.href = "/tum_gitcv/projects/carnet/";
             },},{id: "projects-demas-multi-criteria-decision-support-system",
           title: 'DeMas — Multi-Criteria Decision Support System',
           description: "A consensus-building tool for R&amp;D project selection",
           section: "Projects",handler: () => {
               window.location.href = "/tum_gitcv/projects/demas/";
-            },},{id: "projects-epics-overcoat-scoat",
-          title: 'EPICS Overcoat → sCoat',
+            },},{id: "projects-epics-mep-inteudn-scoat-and-ssim-by-next-in",
+          title: 'EPICS/MEP/InTeUDN sCoat and sSIM by Next-In',
           description: "From a community-service prototype to a life-saving smart overcoat and locator system",
           section: "Projects",handler: () => {
               window.location.href = "/tum_gitcv/projects/epics_scoat/";
