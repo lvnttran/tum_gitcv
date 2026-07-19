@@ -70,10 +70,10 @@
   type: nested_list
   contents:
     - title: Programming
-      items: [Python, SQL, R, C/C++, C#]
+      items: [Python/R, SQL, C/C++/C#]
     - title: Data Analysis & Visualization
-      items: [Tableau, Power BI]
+      items: [Tableau, Power BI, MS Access]
     - title: CAD/Simulation
-      items: [AutoCAD, SketchUp, Arena, Plant Simulation]
+      items: [AutoCAD, SketchUp, Arena/Plant Simulation]
     - title: Research Areas
       items: [Operational Research, Machine Learning, VR/AR Simulation]
