@@ -1,189 +1,205 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Le-Vi-Nhan-Tam Tran
+  label: PhD in Industrial Engineering
+  email: le-vi-nhan-tam.tran@etud.polymtl.ca
+  location: Montreal, CA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Operational Research, Machine Learning, VR/AR Simulation
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
+    - network: Scholar
+      username: Le-Vi-Nhan-Tam Tran
     - network: GitHub
-      username: example
+      username: lvnttran
     - network: LinkedIn
-      username: example
+      username: tlvntam
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Ave Ekers
+    city: Montreal
+    region: Quebec
+    postalCode: H3A 1E1
+    countryCode: CA
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Polytechnique Montréal, Université de Montréal
+        location: Montreal, Canada
+        area: Industrial Engineering
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2026
+        end_date: 2029
+        url: https://www.polymtl.ca/
         highlights:
-          - Description 1.
-          - Description 2.
+          - RA, Laboratoire en intelligence des données (LID).
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Institut polytechnique de Grenoble, Université Grenoble Alpes
+        location: Grenoble, France
+        area: Industrial Engineering
+        studyType: PhD
+        start_date: 2025
+        end_date: 2029
+        url: https://www.grenoble-inp.fr/en
         highlights:
-          - Description 1.
-          - Description 2.
+          - RA, G-SCOP lab.
+          - TA, Grenoble INP
+
+      - institution: Unite! Research School, Politecnico di Torino
+        location: Turin, Italy
+        area:  Digital Transition track, Industry 5.0
+        studyType: PhD
+        start_date: 2025
+        end_date: 2025
+        url: https://www.unite-university.eu/unitenews/unite-research-school-2026-inspiring-the-next-generation-of-european-engineers
+
+
+      - institution: Institut polytechnique de Grenoble, Université Grenoble Alpes
+        location: Grenoble, France
+        area: Industrial Engineering
+        studyType: Master's
+        score: 15.15/20.0
+        start_date: 2023
+        end_date: 2025
+        url: https://www.grenoble-inp.fr/en
+
+      - institution: University of Science and Technology, University of Da Nang
+        location: Da Nang, Viet Nam
+        area: Industrial Engineering and Management
+        studyType: Bachelor's
+        score: 3.45/4.0
+        start_date: 2018
+        end_date: 2023
+        url: https://dut.udn.vn/EN
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company:  G-SCOP Laboratory, Grenoble INP
+        position: Internship Research Assistant
+        location: Grenoble, France
+        start_date: 2024
+        end_date: 2025
+        summary:  ACTiP — Case-Based Reasoning for Manufacturing Time Estimation is a desktop GUI (Qt5) integrating KNN, KD-Tree, and neural-network classification to improve MAE across product families
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company:  Vision-R Laboratory, Grenoble INP
+        position: Internship Research Assistant
+        location: Grenoble, France
+        start_date: 2023
+        end_date: 2024
+        summary: ChronosPedia — VR Heritage Education App is an Unity/XR Toolkit app teaching users about the Comtoise clock via 3D models and hands-on assembly interaction.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Da Nang University of Science and Technology
+        position: Internship Research Assistant
+        location: Da Nang, Viet Nam
+        start_date: 2022
+        end_date: 2023
+        summary: AdUsin — Smart Factory Simulation Platform is a Streamlit app with IoT database module, predictive maintenance, and YOLOv7-based defect detection.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Da Nang University of Science and Technology
+        position: Internship Research Assistant
+        location: Da Nang, Viet Nam
+        start_date: 2021
+        end_date: 2022
+        summary: sCoat and sSim was a part of EPICS and MEP program.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Da Nang University of Science and Technology
+        position: Internship Research Assistant
+        location: Da Nang, Viet Nam
+        start_date: 2020
+        end_date: 2021
+        summary: DeMas — Multi-Criteria Decision Support System which have 2 phase. Phase 1 is Django app using AHP for R&D project consensus-building and Phase 2 added Random Forest support for uncertain-constraint decisions.
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+#    Volunteer:
+#      - company: People's Climate March
+#        position: Lead Organizer
+#        location: Zurich, Switzerland
+#        start_date: 2014-04-01
+#        end_date: 2015-07-01
+#        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+#        highlights:
+#          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+#          - "Men of the year 2014 by Time magazine"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+#    Awards:
+#      - title: Nobel Prize in Physics
+#        authors:
+#          - "Royal Swedish Academy of Sciences"
+#        date: 1921-11-01
+#        awarder: Royal Swedish Academy of Sciences
+#        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+#        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+#      - title: Max Planck Medal
+#        authors:
+#          - "German Physical Society"
+#        date: 2029
+#        awarder: German Physical Society
+#        summary: Awarded for outstanding scientific achievement
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: An Integrated Machine Learning and Case-Based Reasoning Framework for Manufacturing Time Estimation of Multi-Family Engineer-To-Order Products
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Le Vi Nhan Tam Tran, Abdourahim Sylla, Bruno Agard
+        publisher: Elsevier
+        releaseDate: 2027-01-01
+#        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        summary: Advanced Engineering Informatics
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: From Knowledge-Based to Learning-Based Product–Process Configuration. A Systematic Literature Review
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+            - Le Vi Nhan Tam Tran, Abdourahim Sylla, Bruno Agard, Frédéric Noël
+        publisher: Proceedings
+        releaseDate: 2026-06-17
+          #        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        summary: 13th International Joint Conference on Mechanics, Design Engineering and Advanced Manufacturing (JCM 2026), Aix-les-Bains, France
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Hybrid Machine Learning Chain for Manufacturing Time Estimation Across Multiple Product Families
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Le Vi Nhan Tam Tran, Abdourahim Sylla, Bruno Agard
+        publisher: Proceedings
+        releaseDate: 2025-01-01
+        #        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        summary: 11th IFAC Conference on Manufacturing Modelling, Management and Control (IFAC MIM2025), Trondheim, Norway
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords: "Python/R, SQL, C/C++/C#"
+
+      - name: Data Analysis & Visualization
+        keywords: "Tableau, Power BI, MS Access"
+
+      - name: CAD/Simulation
+        keywords: "AutoCAD, SketchUp, Arena/Plant Simulation"
 
     Languages:
-      - name: German
+      - name: Vietnamese
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
 
+      - name: French
+        summary: "Beginner"
+
     Interests:
       - name: Physics
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Industrial Informatics, Data Analytics, Machine Learning, Artificial Intelligence"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+#    Certificates:
+#      - name: Machine Learning
+#        date: 2018-01-01
+#        issuer: Stanford University
+#        icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+#    Projects:
+#      - name: Quantum Computing
+#        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+#        highlights:
+#          - Quantum Teleportation
+#          - Quantum Cryptography
+#        start_date: 2018-01-01
+#        end_date: 2018-01-01
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+#    References:
+#      - name: Professor John Doe
+#        icon: fa-solid fa-laptop
+#        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
